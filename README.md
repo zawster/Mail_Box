@@ -1,2 +1,2 @@
-# mail_box
+#   Mail Box
 Database Project
