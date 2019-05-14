@@ -17,15 +17,15 @@
 		}
 		.instead{
 			text-align: left;
-			margin-top: 110px;
-			padding-top: 100px;
+			margin-top: 66px;
+			padding-top: 66px;
 			margin-left: 15px;
 		}
 		.butn{
 			width: 85px;
 			text-align: right;
-			margin-top: 110px;
-			padding-top: 100px;
+			margin-top: 60px;
+			padding-top: 60px;
 			margin-right: 10px;
 		}
 		
@@ -35,39 +35,52 @@
 	<center>
 	<img src="logo.gif" width="170" height="60" />
 	<div class="container">
-		<h3>Create your Xmail Account</h3>
+		<h3>Create your MailBox Account</h3>
 		<form action="" method="POST">
 			<div class="row">
 			    <div class="col">
-			      <input type="text" class="form-control" placeholder="First name" name="fname">
+			      <input type="text" class="form-control" placeholder="First name" name="fname" required>
 			    </div>
 			    <div class="col">
-			      <input type="text" class="form-control" placeholder="Last name">
+			      <input type="text" class="form-control" placeholder="Last name" required>
 			    </div>
 			</div>
 			
-			<input type="text" class="form-control " placeholder="Username" style="margin-top:14px;">
+			<input type="text" class="form-control " placeholder="Username" style="margin-top:14px;" required>
 			
 
 			<div class="row"  style="margin-top:14px;">
 			    <div class="col">
-			      <input type="password" class="form-control" placeholder="Password" name="fname">
+			      <input type="password" class="form-control" placeholder="Password" name="fname" required>
 			    </div>
 			    <div class="col">
-			      <input type="password" class="form-control" placeholder="Confirm" id="password-field">
+			      <input type="password" class="form-control" placeholder="Confirm" id="password-field" required>
 			    </div>
 			    <span style="padding-left:25px; color:#706969;">Use 4 or more characters with a mix of letters, numbers & symbols</span>
 			    
 			</div>
+			<input type="numbers" class="form-control " placeholder="Contact" style="margin-top:14px;" required>
+			<input type="date" class="form-control " placeholder="DOB" style="margin-top:14px;" required>
 			<div class="row">
 				<div class="instead col"><a href="index.html" >Sign in Instead?</a></div>
 			
 				<div class="butn">
-				<input type="button" value="  Next  " class="btn btn-primary col "></div>
+				<input type="submit" value="  Next  " class="btn btn-primary col "></div>
 			</div>	
+
 			
 		</form>
 	</div>	
 	</center>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
