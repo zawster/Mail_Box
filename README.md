@@ -14,8 +14,10 @@ Install package to make environment:
 pip3 install pipenv
 
 
+
 TO activate enviroment:
 pipenv shell
+
 
 
 
