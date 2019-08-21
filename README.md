@@ -22,4 +22,10 @@ install packagestouch
 * pipenv install flask flask-sqlalchemy flask-marshmallow marshmallow-sqlalchemy
 
 #   Project Screenshots
-![Login Email](Images/login1.png)
+
+![](Images/login1.png)
+![](Images/login2.png)
+![](Images/signup.png)
+![](Images/inbox.png)
+![](Images/newMsg.png)
+![](Images/help.png)
