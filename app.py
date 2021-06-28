@@ -276,7 +276,7 @@ def logout():
 #Run Server
 if __name__== "__main__":
 	#set logging
-	app.config['SECRET_KEY'] = "Mehmood"
+	app.config['SECRET_KEY'] = "ahsan"
 	logging.basicConfig()
 	logging.getLogger('sqlalchemy.engine').setLevel(logging.INFO)
 	app.run(debug=True)
